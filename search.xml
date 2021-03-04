@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>JAVA基础学习笔记</title>
-      <link href="posts/85be.html"/>
-      <url>posts/85be.html</url>
+      <title>Hello World</title>
+      <link href="posts/3eeb.html"/>
+      <url>posts/3eeb.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>测试测试</p><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
