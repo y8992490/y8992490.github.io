@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="posts/3eeb.html"/>
-      <url>posts/3eeb.html</url>
+      <title>“JAVA学习笔记”</title>
+      <link href="posts/ea1f.html"/>
+      <url>posts/ea1f.html</url>
       
-        <content type="html"><![CDATA[<p>测试测试</p><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>我的第一篇文章</p>]]></content>
       
       
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java学习笔记 </tag>
+            
+        </tags>
       
     </entry>
     
