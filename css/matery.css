@@ -34,9 +34,9 @@
 }
 
 body {
-    background-color: #eaeaea;
+    background-color: #f6f1f1;
     margin: 0;
-    color: #34495e;
+    color: #0f0f0f;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -116,7 +116,7 @@ pre {
     top: 0;
     left: 12px;
     margin-top: 12px;
-    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+    -webkit-box-shadow: 20px 0 #0e0d0b, 40px 0 #27c93f;
     box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
 }
 
@@ -227,7 +227,7 @@ mark {
 
 .card {
     border-radius: 10px;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
+    box-shadow: 0 15px 35px rgba(235, 235, 243, 0.1), 0 5px 15px rgba(243, 245, 246, 0.07) !important;
 }
 
 .card .card-image img {
@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #6ddf0f 70%, #17c72e 30%);
+    background-image: linear-gradient(to right, #0056f6 70%, #0041f5 30%);
     opacity: 1;
 }
 
@@ -258,7 +258,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #4cbf30 0%, #06532e 100%);
     opacity: 0.8;
 }
 
@@ -273,7 +273,7 @@ mark {
 header .side-nav {
     width: 240px;
     z-index: 999;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(245, 242, 242, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 nav {
@@ -570,7 +570,7 @@ header .go-back i {
 
 .bg-cover .container {
     position: relative;
-    color: #fff;
+    color: #fff;   /*主页字体的颜色*/
     z-index: 2;
 }
 
@@ -585,7 +585,7 @@ header .go-back i {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: #eee;     /*主页显示的闪耀字体颜色*/
 }
 
 .bg-cover .post-title {
