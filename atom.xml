@@ -6,7 +6,7 @@
   <link href="https://xinqindexuexi.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://xinqindexuexi.gitee.io/"/>
-  <updated>2021-03-09T14:24:15.783Z</updated>
+  <updated>2021-03-09T14:35:39.756Z</updated>
   <id>https://xinqindexuexi.gitee.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JAVA入门环境搭建</title>
+    <link href="https://xinqindexuexi.gitee.io/posts/5d95.html"/>
+    <id>https://xinqindexuexi.gitee.io/posts/5d95.html</id>
+    <published>2021-03-09T14:23:45.000Z</published>
+    <updated>2021-03-09T14:35:39.756Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;###初识JAVA&lt;/p&gt;
+&lt;p&gt;1972年C诞生&lt;/p&gt;
+&lt;p&gt;1982年C++诞生&lt;/p&gt;
+&lt;p&gt;1995年（Applet）&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;J2SE桌面&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;J2ME手机&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;J2EE服务器&lt;/p&gt;
+&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Java学习笔记" scheme="https://xinqindexuexi.gitee.io/tags/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>JAVA预科阶段</title>

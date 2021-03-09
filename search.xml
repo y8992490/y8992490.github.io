@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>JAVA入门环境搭建</title>
+      <link href="posts/5d95.html"/>
+      <url>posts/5d95.html</url>
+      
+        <content type="html"><![CDATA[<p>###初识JAVA</p><p>1972年C诞生</p><p>1982年C++诞生</p><p>1995年（Applet）</p><p><del>J2SE桌面</del></p><p><del>J2ME手机</del></p><p>J2EE服务器</p><p>高可用、高性能、高并发</p><p>构建工具 Maven</p><p>应用服务器 Tomcat</p><p>Web开发 Spring</p><p>开发工具 Eclipse、Netbean</p><p>2006 Hadoop（大数据）</p><p>2008 Android （手机端）</p><h3 id="JAVA特性和优势"><a href="#JAVA特性和优势" class="headerlink" title="JAVA特性和优势"></a>JAVA特性和优势</h3><p>（待理解）</p><ul><li>简单性</li><li>面向对象</li><li>可移植性（跨平台性，一次编译到处运行）</li><li>高性能</li><li>分布式</li><li>动态性（反射机制）</li><li>多线程</li><li>安全性（异常机制）</li><li>健壮性（使用的人多）</li><li>思考：为什么JAVA能够成功</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Java学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JAVA预科阶段</title>
       <link href="posts/2a8c.html"/>
       <url>posts/2a8c.html</url>
