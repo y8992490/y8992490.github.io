@@ -4,17 +4,17 @@
   
     
     <entry>
-      <title>什么是计算机</title>
+      <title>JAVA预科阶段</title>
       <link href="posts/2a8c.html"/>
       <url>posts/2a8c.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="Computer-电子计算机"><a href="#Computer-电子计算机" class="headerlink" title="Computer 电子计算机"></a>Computer 电子计算机</h1><h3 id="电脑的组成由："><a href="#电脑的组成由：" class="headerlink" title="电脑的组成由："></a>电脑的组成由：</h3><p>Io设备（输入输出设备）</p><p>应用软件、办公软件</p><p>开发、软件开发</p><p>人机交互（图形化界面、命令行DOS）</p><p>电脑运行的体系：</p><ul><li>冯洛伊曼体系结构（待补充）</li></ul><p><img src="D:\用于存放博客用到的主题\tupian\flymtx.png" alt="冯洛伊曼体系结构"></p><h4 id="电脑常用的快捷键："><a href="#电脑常用的快捷键：" class="headerlink" title="电脑常用的快捷键："></a>电脑常用的快捷键：</h4><p>Tab、Shift、Ctrl、Alt、空格、Enter、Window、</p><p>任务管理器：Ctrl+Shift+Esc</p><p>运行：Ctrl+Window+R</p><h3 id="DOS命令："><a href="#DOS命令：" class="headerlink" title="DOS命令："></a>DOS命令：</h3><ol><li>打开CMD的方式直接在开始菜单里点</li><li>运行CMD打开</li><li>在任意文件夹下按住Shift+右键点击，打开命令行窗口（可以直接进入到文件路径）</li><li>在资源管理器的地址栏前面加上CMD的路径（可以直接进入到文件路径）</li></ol><p>管理员方式运行，在菜单里右键选择管理员运行。</p><ul><li>盘符切换目录 D:</li><li>查看当前目录下所有文件 dir</li><li>切换目录 cd （change  directory）“cd  /d  E:” (即可进入需要的路径)  “cd..”  返回上一级</li><li>清理当前窗口 cls （clear screen）</li><li>退出终端 exit</li><li>查看电脑ip  ipconfig</li><li>打开应用如： calc（计算机）mspaint（画图）notepad（记事本）直接输出英文名称即可打开</li><li>ping 命令  ping <a href="http://www.baidu.com/">www.baidu.com</a></li><li>创建目录文件 md 名称 再创建的文件里建立文件cd&gt;名称</li><li>删除文件del 文件.名称</li><li>删除目录 rd 名称</li></ul><h3 id="计算机语言的发展史"><a href="#计算机语言的发展史" class="headerlink" title="计算机语言的发展史"></a>计算机语言的发展史</h3><p>（待补充）</p><ol><li><p>第一代语言“机器语言”</p><p>二进制码</p></li><li><p>汇编语言</p><p>解决人类不能读懂计算机语言的问题 </p></li><li><p>高级语言（第三代语言）</p><p>面向对象和面向过程两大类</p></li></ol><p>）</p>]]></content>
       
       
       
         <tags>
             
-            <tag> Java </tag>
+            <tag> Java学习笔记 </tag>
             
         </tags>
       
