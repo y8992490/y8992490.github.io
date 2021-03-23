@@ -5,8 +5,8 @@
     
     <entry>
       <title></title>
-      <link href="posts/0.html"/>
-      <url>posts/0.html</url>
+      <link href="posts/1.html"/>
+      <url>posts/1.html</url>
       
         <content type="html"><![CDATA[<p>hello world    （你好世界）</p><p>public （公共）</p><p>class  （类）</p><p>int    （整数The integer）</p><p>Scanner    （扫描仪）</p><p>void    （空白）</p><p>main    （主要的）</p><p>method    （方法）</p><p>String    （字符串）</p><p>Variable    （变量）</p><p>scope    （范围）</p><p>static    （静态）</p><p>double    （双倍）</p><p>salary    （工资）</p><p>name    （名字）</p><p>age    （年龄）</p><p>println    （打印）</p><p>null    （无效的）</p><p>Constant    （常量）final </p><p>initialize（初始化）</p><p>instanceof      （运算符）</p><p>operator    （操作符）</p><p>boolean    (布尔)</p><p>score    （成绩）</p>]]></content>
       
