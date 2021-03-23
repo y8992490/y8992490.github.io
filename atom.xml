@@ -6,7 +6,7 @@
   <link href="https://xinqindexuexi.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://xinqindexuexi.gitee.io/"/>
-  <updated>2021-03-13T14:00:09.016Z</updated>
+  <updated>2021-03-23T14:54:30.135Z</updated>
   <id>https://xinqindexuexi.gitee.io/</id>
   
   <author>
@@ -20,8 +20,38 @@
     <title></title>
     <link href="https://xinqindexuexi.gitee.io/posts/0.html"/>
     <id>https://xinqindexuexi.gitee.io/posts/0.html</id>
+    <published>2021-03-23T08:43:42.179Z</published>
+    <updated>2021-03-23T14:54:30.135Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;hello world    （你好世界）&lt;/p&gt;
+&lt;p&gt;public （公共）&lt;/p&gt;
+&lt;p&gt;class  （类）&lt;/p&gt;
+&lt;p&gt;int    （整数The integer）&lt;/p&gt;
+&lt;p&gt;Scanner    （扫描仪）&lt;/p&gt;
+&lt;p&gt;void   </summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="https://xinqindexuexi.gitee.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="https://xinqindexuexi.gitee.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://xinqindexuexi.gitee.io/posts/0.html"/>
+    <id>https://xinqindexuexi.gitee.io/posts/0.html</id>
     <published>2021-03-12T13:40:21.000Z</published>
-    <updated>2021-03-13T14:00:09.016Z</updated>
+    <updated>2021-03-23T14:53:34.128Z</updated>
     
     
       
@@ -71,7 +101,7 @@
     <link href="https://xinqindexuexi.gitee.io/posts/5d95.html"/>
     <id>https://xinqindexuexi.gitee.io/posts/5d95.html</id>
     <published>2021-03-09T14:23:45.000Z</published>
-    <updated>2021-03-13T14:00:43.388Z</updated>
+    <updated>2021-03-17T13:57:07.447Z</updated>
     
     
       
@@ -146,27 +176,6 @@
     
     
     <category term="Java" scheme="https://xinqindexuexi.gitee.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://xinqindexuexi.gitee.io/posts/3eeb.html"/>
-    <id>https://xinqindexuexi.gitee.io/posts/3eeb.html</id>
-    <published>2021-02-07T14:38:53.712Z</published>
-    <updated>2021-03-04T10:23:49.039Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
