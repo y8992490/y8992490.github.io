@@ -6,7 +6,7 @@
   <link href="https://xinqindexuexi.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://xinqindexuexi.gitee.io/"/>
-  <updated>2021-03-23T15:01:44.306Z</updated>
+  <updated>2021-03-25T07:04:56.982Z</updated>
   <id>https://xinqindexuexi.gitee.io/</id>
   
   <author>
@@ -18,10 +18,36 @@
   
   <entry>
     <title></title>
+    <link href="https://xinqindexuexi.gitee.io/posts/2.html"/>
+    <id>https://xinqindexuexi.gitee.io/posts/2.html</id>
+    <published>2021-03-25T02:40:21.000Z</published>
+    <updated>2021-03-25T07:04:56.982Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;命名风格&quot;&gt;&lt;a href=&quot;#命名风格&quot; class=&quot;headerlink&quot; title=&quot;命名风格&quot;&gt;&lt;/a&gt;命名风格&lt;/h3&gt;&lt;p&gt;学习资源来自阿里巴巴编程手册（泰山板）&lt;/p&gt;
+&lt;h4 id=&quot;强制执行&quot;&gt;&lt;a href=&quot;#强制执行&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java学习笔记" scheme="https://xinqindexuexi.gitee.io/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="https://xinqindexuexi.gitee.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="https://xinqindexuexi.gitee.io/posts/1.html"/>
     <id>https://xinqindexuexi.gitee.io/posts/1.html</id>
-    <published>2021-03-23T08:43:42.179Z</published>
-    <updated>2021-03-23T15:01:44.306Z</updated>
+    <published>2021-03-23T15:08:21.000Z</published>
+    <updated>2021-03-24T14:48:24.735Z</updated>
     
     
       
@@ -33,7 +59,7 @@
 &lt;p&gt;class  （类）&lt;/p&gt;
 &lt;p&gt;int    （整数The integer）&lt;/p&gt;
 &lt;p&gt;Scanner    （扫描仪）&lt;/p&gt;
-&lt;p&gt;void   </summary>
+&lt;p&gt;void    （空白  </summary>
         
       
     
@@ -51,7 +77,7 @@
     <link href="https://xinqindexuexi.gitee.io/posts/0.html"/>
     <id>https://xinqindexuexi.gitee.io/posts/0.html</id>
     <published>2021-03-12T13:40:21.000Z</published>
-    <updated>2021-03-23T14:53:34.128Z</updated>
+    <updated>2021-03-24T14:48:20.649Z</updated>
     
     
       
