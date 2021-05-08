@@ -444,14 +444,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-04-14
+                    2021-04-28
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.2k
+                    3.3k
                 </div>
                 
 
@@ -580,14 +580,13 @@
 
         <span class="token comment" spellcheck="true">//求和(这里是先解决求和的需求)</span>
         <span class="token keyword">double</span> sum <span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//</span>
-        <span class="token comment" spellcheck="true">//计算输入了多少次多少个数字</span>
+        <span class="token comment" spellcheck="true">//计算输入的所有数字之和</span>
         <span class="token keyword">int</span> m <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//m作为记录输入次数</span>
         <span class="token comment" spellcheck="true">//通过循环判断是否还有输入，并在里面对每一次进行求和和统计</span>
         System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token keyword">while</span> <span class="token punctuation">(</span>scanner<span class="token punctuation">.</span><span class="token function">hasNextDouble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
             <span class="token keyword">double</span> x <span class="token operator">=</span> scanner<span class="token punctuation">.</span><span class="token function">nextDouble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            m <span class="token operator">=</span> <span class="token operator">++</span>m<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//这里不能用m++ 为什么自己先想想</span>
-            sum <span class="token operator">=</span> sum <span class="token operator">+</span> x<span class="token punctuation">;</span>
+            m <span class="token operator">=</span> <span class="token operator">++</span>m<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//这里不能用m++ 为什么自己先想想            sum = sum + x;</span>
             System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"输入的次数为"</span><span class="token operator">+</span>m<span class="token operator">+</span><span class="token string">"结果是sum+"</span><span class="token operator">+</span>sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
             System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"如需结束请输入非数字"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
@@ -892,31 +891,34 @@
 <span class="token keyword">package</span> Switch<span class="token punctuation">;</span>
 
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Dome_for</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-     <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-        <span class="token keyword">while</span> <span class="token punctuation">(</span>a<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            a<span class="token operator">+=</span><span class="token number">2</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"while结束"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"for结束"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token comment" spellcheck="true">/*
-        关于for 循环有以下几点说明
-        最先执行初始化化步骤，可以产生一种类型，但可初始化一个或多个循环变量，也可以是空语句。
-        然后，监测布尔表达式的值，如果为true，循环体被执行，如果为false，循环终止，开始执行循环体后面的语句
-        执行一次循环后，更新循环控制变量（迭代因子控制循环变量增减）
-        再次监测布尔表达式，循环执行上面的过程
-         */</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+       <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+           <span class="token keyword">while</span> <span class="token punctuation">(</span>a<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+               System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+               a<span class="token operator">+=</span><span class="token number">2</span><span class="token punctuation">;</span>
+           <span class="token punctuation">}</span>
+           System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"while结束"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+           System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span>
+       System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"for结束"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token comment" spellcheck="true">/*
+       关于for 循环有以下几点说明
+       最先执行初始化化步骤，可以产生一种类型，但可初始化一个或多个循环变量，也可以是空语句。
+       然后，监测布尔表达式的值，如果为true，循环体被执行，如果为false，循环终止，开始执行循环体后面的语句
+       执行一次循环后，更新循环控制变量（迭代因子控制循环变量增减）
+       再次监测布尔表达式，循环执行上面的过程
+        */</span>
+   <span class="token punctuation">}</span>
+ <span class="token punctuation">}</span>
+      
 </code></pre>
 <p>可以运用100.for 的输入进行快捷操作</p>
 <p>####练习1计算0到100之间的奇数和偶数的和</p>
-<pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> Switch<span class="token punctuation">;</span>
+<pre class=" language-java"><code class="language-java">
+
+
+<span class="token keyword">package</span> Switch<span class="token punctuation">;</span>
 
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">for_Dome02</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -945,7 +947,7 @@
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span>
     <span class="token punctuation">{</span>
         <span class="token comment" spellcheck="true">//练习2用while或for循环输出1-1000之间能被5整除的数，并且输出3个</span>
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">1000</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">1000</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
         <span class="token punctuation">{</span>
             <span class="token keyword">if</span> <span class="token punctuation">(</span>i<span class="token operator">%</span><span class="token number">5</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>
             <span class="token punctuation">{</span>
@@ -986,7 +988,8 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<pre class=" language-java"><code class="language-java"><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">9</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> 
+<pre class=" language-java"><code class="language-java"> <span class="token comment" spellcheck="true">//经验这种类型可以看做一列一列然后先解决没列想象成列</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">9</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> 
         <span class="token punctuation">{</span>
             <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> a <span class="token operator">&lt;=</span> i<span class="token punctuation">;</span> a<span class="token operator">++</span><span class="token punctuation">)</span> 
             <span class="token punctuation">{</span>
@@ -994,12 +997,16 @@
             <span class="token punctuation">}</span>
             System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">/*
+         这里看到两个for循环圈，我们可以看做每个循环圈分别定义一个变量，然后根据优先级
+         不同的原因进行运算，
+          */</span>
 </code></pre>
 <p>很多种写法</p>
 </li>
 </ol>
 <ul>
-<li>在Java5中引入了一种主要用于数组的增强型for循环</li>
+<li>在Java5中引入了一种主要用于数组的增强型for循环 </li>
 </ul>
 
                 

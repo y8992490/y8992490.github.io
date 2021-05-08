@@ -444,7 +444,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-04-11
+                    2021-04-23
                 </div>
                 
 
@@ -590,7 +590,7 @@
 <ul>
 <li><p>变量是什么：就是可以变化的量。</p>
 </li>
-<li><p>Java是一种强类型语言，每个变量都必须什声明其类型</p>
+<li><p>Java是一种强类型语言，每个变量都必须声明其类型</p>
 </li>
 <li><p>Java变量是程序中最基本的存储单元，其要素包括变量名，变量类型和作用域。</p>
 <pre class=" language-java"><code class="language-java">tvne varName <span class="token punctuation">[</span><span class="token operator">=</span>value<span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token punctuation">{</span><span class="token punctuation">,</span>varName<span class="token punctuation">[</span><span class="token operator">=</span>value<span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
@@ -620,7 +620,7 @@
         <span class="token comment" spellcheck="true">//浮点数</span>
         <span class="token comment" spellcheck="true">//float 表示有限的位数 离散 舍入误差 大约 接近但是不等于</span>
         <span class="token comment" spellcheck="true">//不要完全使用浮点数进行比较</span>
-        <span class="token comment" spellcheck="true">//银行业务怎么去表示用 “BigDecimal” 数学工具类</span>
+        <span class="token comment" spellcheck="true">//银行业务怎么去表示？  用 “BigDecimal” 数学工具类</span>
         <span class="token keyword">float</span> f <span class="token operator">=</span> <span class="token number">0.1f</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">// 0.1</span>
         <span class="token keyword">double</span> d <span class="token operator">=</span> <span class="token number">1.0</span><span class="token operator">/</span><span class="token number">10</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">// 0.1</span>
         System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>f<span class="token operator">==</span>d<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//false</span>
@@ -639,8 +639,8 @@
 
         System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>c2<span class="token punctuation">)</span><span class="token punctuation">;</span>
         System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>c2<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//强制转换</span>
-        <span class="token comment" spellcheck="true">// 输出的结果 强制转换后的编程了表单里的数字</span>
-        <span class="token comment" spellcheck="true">/*所有的字符本质上还是数字
+        <span class="token comment" spellcheck="true">// 输出的结果 强制转换后  变成了表单里的数字</span>
+        <span class="token comment" spellcheck="true">/*所有的字符本质上还是数字（二进制）
         编码 Unicode表 有2个字节的位置0 - 65535 之间*/</span>
        <span class="token comment" spellcheck="true">// Unicode 表的表示</span>
        <span class="token keyword">char</span> c3 <span class="token operator">=</span> <span class="token string">'\u0061'</span><span class="token punctuation">;</span>
@@ -843,7 +843,7 @@
 <ol>
 <li><p>算数运算符：+、-、*、/、%（取余模运算）、++、–</p>
 <pre class=" language-java"><code class="language-java">多个类型中如果有<span class="token keyword">long</span>或者<span class="token keyword">double</span>其中一个类型结果就为<span class="token keyword">long</span>或者<span class="token keyword">double</span>类型，如果没有就全部为<span class="token keyword">int</span>类型
-    <span class="token operator">%</span>取余运算如：<span class="token number">21</span><span class="token operator">%</span><span class="token number">10</span>会得到<span class="token number">1</span>因为他们相除余数为<span class="token number">1</span>
+    <span class="token operator">%</span>取余运算如：<span class="token number">21</span><span class="token operator">%</span><span class="token number">10</span>会得到<span class="token number">1</span>因为他们相除余数为<span class="token number">1</span>，遇到除不尽的情况如<span class="token number">4</span><span class="token operator">%</span><span class="token number">8</span>他的余数就等于<span class="token number">4</span>本身
 </code></pre>
 </li>
 <li><p>赋值运算符：=</p>
@@ -898,7 +898,7 @@
         System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"! (a &amp;&amp; b);"</span><span class="token operator">+</span><span class="token operator">!</span> <span class="token punctuation">(</span>a<span class="token operator">&amp;&amp;</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//两个变量如果是真则为假，如果是假则为真</span>
         <span class="token comment" spellcheck="true">//非运算和与运算 区别在与运算如果运算第一个变量为假时，就不会再向下运算了</span>
         <span class="token comment" spellcheck="true">//但是非运算</span>
-        就需要两个变量都去运算和或也一样
+       <span class="token comment" spellcheck="true">// 就需要两个变量都去运算和或也一样</span>
 
         <span class="token comment" spellcheck="true">//短路运算就是与这样的，只要开始运算第一个变量为假那结果就为假了后面就不用运算了</span>
         <span class="token keyword">int</span> c <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
